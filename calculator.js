@@ -1,11 +1,11 @@
 let a, b, sum, quotien, product, diff, operand;
 document.getElementById("myButton").onclick = function () {
   a = document.getElementById("num1").value;
-  a=Number(a)
+  a = Number(a);
   b = document.getElementById("num2").value;
-  b=Number(b)
+  b = Number(b);
   operand = document.getElementById("operator").value;
-  operand=Number(operand)
+  operand = Number(operand);
 
   if (operand == 1) {
     sum = a + b;
