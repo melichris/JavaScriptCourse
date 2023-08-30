@@ -13,3 +13,12 @@ function shoutMyName(name) {
 console.log(shoutMyName("Sam")); // "SAM"
 console.log(shoutMyName("Charley")); // "CHARLEY"
 console.log(shoutMyName("alex")); // "ALEX"
+
+// Complete the function lowerName such that it returns the name parameter it receives all in lower case.
+function lowerName(name) {
+  return name.toLowerCase();
+}
+
+// Sample usage - do not modify
+console.log(lowerName("Sam")); // "sam"
+console.log(lowerName("ALEX")); // "a
