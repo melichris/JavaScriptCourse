@@ -13,10 +13,19 @@ function displayDataTypes() {
 //NB: typeof will be explained further
 
 // convertion
-// converting from number to string we use the x.toString() where x is the variable name
+// 1.converting from number to string we use the x.toString() where x is the variable name
 function numberToString(age) {
   return age.toString(); //converts age to a string
 }
-console.log(numberToString(age))
 // view datatype of varaible
-console.log(typeof numberToString(age))
+console.log(typeof numberToString(age));
+
+// 2.converting from string to interger
+function stringToNumber(phone) {
+  return parseInt(phone);
+}
+// view datatype of varaible
+console.log(typeof stringToNumber(phone));
+
+// converting 
+
