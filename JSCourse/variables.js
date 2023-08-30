@@ -8,6 +8,6 @@ const id = 123;
 console.log(fname);
 console.log(id);
 fname = "boris";
-id = 21; //line gives and error
+// id = 21; //line gives and error
 console.log(fname);
 console.log(id);
